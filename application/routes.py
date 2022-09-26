@@ -11,7 +11,7 @@ data = json.loads(resp.read())
 price = data['quoteSummary']['result'][0]['price']['regularMarketPrice']['raw']
 print(price)
 ic(price)
-ic(price)
+
 
 
 
